@@ -1,0 +1,35 @@
+@keyframes title-h1 {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes title-h2 {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0); 
+    }
+}
+
+@keyframes header-btn {
+    0% {
+        opacity: 0;
+        transform: translateY(100%) rotateX(-90deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0) rotateX(0); 
+    }
+}
